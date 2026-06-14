@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://www.youtube.com/results">
+        <div>
+            <label for="query">Введите запрос</label>
+            <input type="text" placeholder="Запрос..." id="query" name="search_query">
+        </div>
+
+        <div>
+            <label for="agree">Согласен с обработкой данных</label>
+            <input type="checkbox" name="agree" id="agree">
+        </div>
+
+        <div>
+            <input type="radio" name="search" id="all" value="all">
+            <label for="all">Поиск повсюду</label>
+        </div>
+
+        <div>
+            <input type="radio" name="search" id="youtube" value="youtube">
+            <label for="youtube">Поиск на youtube</label>
+        </div>
+
+        <div>
+            <label for="topic">Тематика</label>
+            <select name="topic" id="topic">
+                <option value="1">Все</option>
+                <option value="2">Животные</option>
+                <option value="3" selected>Разработка</option>
+            </select>
+        </div>
+
+        <button>Искать на youtube</button>
+    </form>
+</body>
+
+</html>
