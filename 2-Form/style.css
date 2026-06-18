@@ -1,0 +1,52 @@
+main {
+    background-color: #FFFEFE;
+}
+
+h1 {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+
+.account-exists {
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.login-prompt {
+    color: #089FE0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+label {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+input {
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    background-color: #089FE0;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+}
+
+a {
+    color: #089FE0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
