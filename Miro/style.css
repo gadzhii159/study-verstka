@@ -1,0 +1,52 @@
+#heroButton {
+    background-color: #4262FF;
+    color: #FFFFFF;
+}
+
+.link {
+    color: #4262FF;
+    text-decoration: underline;
+}
+
+h1,
+h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: 'Roboto', sans-serif;
+    color: #050038;
+}
+
+.heroText {
+    color: #050038
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.sectionText {
+    color: #696688;
+}
+
+header a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #050038;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#heroForm+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #050038;
+}
+
