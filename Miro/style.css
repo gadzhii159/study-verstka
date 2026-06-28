@@ -1,6 +1,54 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    padding: 33px 50px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    color: #050038;
+    margin: 0 0 17px 0;
+}
+
+.heroText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
 #heroButton {
     background-color: #4262FF;
     color: #FFFFFF;
+}
+
+#heroButton:hover {
+    background-color: #122db6;
 }
 
 .link {
@@ -8,13 +56,8 @@
     text-decoration: underline;
 }
 
-h1,
-h2 {
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
-    font-family: 'Roboto', sans-serif;
-    color: #050038;
+.link:hover {
+    color: #122db6;
 }
 
 .heroText {
@@ -50,3 +93,6 @@ footer a {
     color: #050038;
 }
 
+.sectionList {
+    list-style: url('images/check.svg');
+}

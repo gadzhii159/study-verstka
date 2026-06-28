@@ -1,6 +1,11 @@
 body {
     min-height: 100vh;
     background: linear-gradient(to bottom, #374151, #111827);
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
 }
 
 #myblog a {
@@ -31,6 +36,11 @@ header a {
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFF;
+    width: 224px;
+    height: 40px;
+    border-radius: 16px;
+    border: solid #374151;
+    padding: 9px 12px;
 }
 
 h1 {
@@ -41,6 +51,15 @@ h1 {
     letter-spacing: 0%;
     justify-content: center;
     color: #FFFFFF;
+    width: 525px;
+    height: 76px;
+    margin: 99px 0px 111px 0px;
+}
+
+#img {
+    width: 896px;
+    height: 594px;
+    margin: 0px 0px 69px 0px;
 }
 
 .article-intro {
@@ -50,6 +69,9 @@ h1 {
     line-height: 32px;
     letter-spacing: 0%;
     color: #FFFFFF;
+    width: 708px;
+    height: 101px;
+    margin: 0px 0px 185px 0px;
 }
 
 .article-body {
@@ -58,6 +80,12 @@ h1 {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0%;
+    color: #FFFFFF;
+    width: 708px;
+    height: 50px;
+}
+
+a {
     color: #FFFFFF;
 }
 
@@ -68,4 +96,5 @@ footer {
     line-height: 28px;
     letter-spacing: 0%;
     color: #FFFFFF;
+    margin: 100px 0px 77px 0px;
 }
