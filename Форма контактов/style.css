@@ -1,0 +1,25 @@
+main {
+    background-color: #1e1f29;
+}
+
+h1 {
+    color: #fafafa;
+    font-size: 36px;
+    font-family: 'Fira Sans', monospace;
+}
+
+input,
+select,
+textarea {
+    background-color: #2E2D3D;
+    color: #fafafa;
+}
+
+label {
+    color: #afb2bf;
+}
+
+button {
+    background-color: #6c38cc;
+    color: #fafafa;
+}
