@@ -98,3 +98,15 @@ footer {
     color: #FFFFFF;
     margin: 100px 0px 77px 0px;
 }
+
+header{
+    padding: 40px 0;
+}
+
+main{
+    padding: 40px 0;
+}
+
+footer{
+    padding: 30px 0;
+}
