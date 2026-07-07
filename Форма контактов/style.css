@@ -1,11 +1,24 @@
-main {
+body {
     background-color: #1e1f29;
+}
+
+main {
+    border-radius: 10px;
+    padding: 48px;
 }
 
 h1 {
     color: #fafafa;
     font-size: 36px;
-    font-family: 'Fira Sans', monospace;
+    font-weight: 700;
+    font-family: 'andale mono', monospace;
+    text-align: center;
+    margin: 0 0 32px 0;
+}
+
+.fild {
+    margin-bottom: 16px;
+    position: relative;
 }
 
 input,
@@ -13,13 +26,39 @@ select,
 textarea {
     background-color: #2E2D3D;
     color: #fafafa;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    padding: 27px 48px 12px;
+    border-radius: 10px;
+    border: none;
 }
 
 label {
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
     color: #afb2bf;
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    color: #4a4863;
+    font-size: 16px;
 }
 
 button {
     background-color: #6c38cc;
     color: #fafafa;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
 }
