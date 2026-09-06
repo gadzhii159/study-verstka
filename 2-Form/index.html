@@ -11,35 +11,32 @@
 <body>
     <main>
         <h1>Регистрация</h1>
-        <p class="account-exists">Уже есть аккаунт?</p> <a class="login-prompt" href="#">Войти</a>
+        <p class="account-exists">Уже есть аккаунт? <a class="login-prompt" href="#">Войти</a></p>
 
         <form action="#" method="get">
             <div>
-                <label for="Company">Мой компания</label>
-                <input type="text" name="Company" id="Company" required>
+                <label for="Company"></label>
+                <input type="text" name="Company" id="Company" class="company" required placeholder="Мой компания">
             </div>
 
-            <div>
+            <div class="form-container">
                 <label for="Name"></label>
                 <input type="text" name="Name" id="Name" placeholder="Имя" required>
-            </div>
 
-            <div>
                 <label for="surname"></label>
                 <input type="text" name="surname" id="surname" placeholder="Фамилия" required>
             </div>
 
-            <div>
+            <div class="e-mail">
                 <label for="E-mail"></label>
                 <input type="email" name="E-mail" id="E-mail" placeholder="E-mail" required>
             </div>
 
             <button>Зарегистрироваться</button>
 
-            <div>
+            <div class="form-agreement">
                 <input type="checkbox">
-                <p>Я прочитал и принимаю</p>
-                <a href="#">Условия использования</a>
+                <span>Я прочитал и принимаю <a href="#">Условия использования</a></span>
             </div>
         </form>
     </main>
