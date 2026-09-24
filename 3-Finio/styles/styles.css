@@ -42,7 +42,7 @@
 .tariff-card {
     display: grid;
     grid-template-rows: auto 1fr auto;
-
+    width: 369px;
     background-color: var(--color-bg-card);
     border-radius: var(--radius-card);
     padding: 48px 40px;
