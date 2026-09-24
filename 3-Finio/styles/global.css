@@ -1,0 +1,33 @@
+:root {
+    --color-primary: #357EFE;
+    --color-primary-hover: #1a5cd6;
+
+    --color-accent-green: #1ABC9C;
+    --color-accent-yellow: #FFC736;
+
+    --color-bg-main: #f9f9f9;
+    --color-bg-card: #ffffff;
+    --color-text-dark: #000000;
+    --color-text-muted: rgba(78, 93, 124, 0.5);
+    --color-text-light: #ffffff;
+    --color-border: rgba(78, 93, 124, 0.08);
+
+    --radius-card: 8px;
+    --radius-button: 47px;
+    --radius-badge: 8px;
+
+    --font-main: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-bg-main);
+    color: var(--color-text-dark);
+    -webkit-font-smoothing: antialiased;
+}
