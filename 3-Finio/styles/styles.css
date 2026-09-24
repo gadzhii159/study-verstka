@@ -55,6 +55,10 @@
     margin: 0 0 16px 0;
 }
 
+.card-1 {
+    margin-top: 48px;
+}
+
 .tariff-card_featured {
     background-color: var(--color-primary);
     color: var(--color-text-light);
