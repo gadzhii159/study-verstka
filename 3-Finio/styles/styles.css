@@ -40,16 +40,12 @@
 }
 
 .tariff-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
     background-color: var(--color-bg-card);
     border-radius: var(--radius-card);
     padding: 48px 40px;
-}
-
-.tariff-card__header {
-    
 }
 
 .tariff-card__title {
@@ -87,8 +83,8 @@
 }
 
 .tariff-card__info-item {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto;
     padding: 16px 0;
     border-bottom: 1px solid var(--color-border);
 }
