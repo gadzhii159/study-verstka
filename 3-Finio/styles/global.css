@@ -5,6 +5,9 @@
     --color-accent-green: #1ABC9C;
     --color-accent-yellow: #FFC736;
 
+    --color-link-hover: #1b6dfc;
+    --color-link-hover-grey: #afb2bf;
+
     --color-bg-main: #f9f9f9;
     --color-bg-card: #ffffff;
     --color-text-dark: #000000;
@@ -14,7 +17,9 @@
 
     --radius-card: 8px;
     --radius-button: 47px;
+    --radius-button-12: 12px;
     --radius-badge: 8px;
+    --layout-width: 1172px;
 
     --font-main: 'Inter', sans-serif;
 }
@@ -30,4 +35,8 @@ body {
     background-color: var(--color-bg-main);
     color: var(--color-text-dark);
     -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
 }
